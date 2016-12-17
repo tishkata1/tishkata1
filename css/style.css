@@ -1,0 +1,7 @@
+.top .background {
+    background: url(../images/sunflower.jpg) no-repeat;
+    position: absolute;
+    background-size: cover;
+    opacity: 0;
+
+}
