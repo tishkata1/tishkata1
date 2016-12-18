@@ -3,5 +3,11 @@
     position: absolute;
     background-size: cover;
     opacity: 0;
-
 }
+
+@media screen and (max-width: 768px){
+    .main-menu{
+        line-height: 64px;
+        padding: 0 10px;
+        bottom: 0;
+    }
