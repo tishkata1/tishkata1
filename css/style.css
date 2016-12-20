@@ -1,18 +1,353 @@
+.top,
+.top .background,
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+
+.line,
+.top,
+body,
+html {
+    width: 100%;
+}
+
+body,
+html {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    position: relative;
+    background: firebrick;
+    color: #fff;
+    text-align: right
+}
+.top.added-image .background {
+    opacity: 1
+}
 .top .background {
     background: url(../images/sunflower.jpg) no-repeat;
     position: absolute;
     background-size: cover;
     opacity: 0;
+
+}
+
+.top .content-block {
+    float: none;
+    margin: 25% auto
+}
+.top .name {
+    font-size: 64px;
+    display: none
+}
+.top .description {
+    font-size: 29px;
+    display: none;
+    padding-right: 2px
+}
+
+.line {
+    height: 64px;
+    background: repeat-x #c22228;
+}
+
+.line p {
+    padding: 20px 0
+}
+
+#main-line {
+    display: none;
+    position: relative;
+    margin-top: -64px;
+    z-index: 1000;
+}
+
+#main-line.fixed {
+    position: fixed;
+    margin: 0;
+    top: 0
+}
+#main-line a,
+.section{
+    position: relative;
+}
+
+#main-line .center-menu {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-line a {
+    display: inline-block
+}
+
+.logo{
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: -1.9px;
+    bottom: 6px;
+    right: 5px;
+}
+.logo:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu{
+    font-size: 16px;
+    color: white;
+    padding: 0 5px;
+    bottom: 15px;
+}
+.menu:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.contact-icon{
+    bottom: 20px;
+    margin-left: 8px;
+}
+.contact-icon:hover{
+    cursor: pointer;
+}
+
+.contact-icon img{
+    height: 24px;
+    width: 24px;
+}
+.description,  .name{
+    text-align: center;
+}
+.content-block{
+    white-space: nowrap;
+}
+.left-divider{
+    border-color: #c22228;
+    width: 30%;
+    float: left;
+}
+.right-divider{
+    border-color: #c22228;
+    width: 30%;
+    float: right;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title h2{
+    font-size: 60px;
+    color: #c22228;
+    margin-top: -15px;
+
+}
+.title{
+    padding-top: 100px;
+}
+.section-about {
+    background: #ecf0f1;
+    color: #ffffff;
+    min-height: 100%
+}
+.description{
+    font-size: 21px;
+    margin: 0 auto;
+    float: none;
+    top:62px;
+}
+
+.me{
+    position: absolute;
+    height: 312px;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+}
+.bub
+{
+    top: 233px;
+    margin: -8% auto auto auto;
+    float: none;
+    padding: 3px;
+    background: #c22228;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    border: #000000 solid 1px;
+    box-shadow: 5px 5px 5px #ae9c9c;
+}
+
+.bub:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 13px 0 13px 48px;
+    border-color: transparent #c22228;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -48px;
+    top: 190px;
+}
+
+.bub:before
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 13px 0 13px 48px;
+    border-color: transparent #000000;
+    display: block;
+    width: 0;
+    z-index: 0;
+    right: -49px;
+    top: 190px;
+}
+.pad{
+    padding-top: 7px;
+}
+p {
+    padding: 3px;
+}
+
+.section .col img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding: 10px;
+    color: #535353;
+    font-size: 12px
+}
+a{
+    color: #c22228;
+}
+a:hover{
+    color: #8f0021;
+}
+.wor{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #c22228;
+}
+.title-pro{
+    height: 25%;
+    width: 100%;
+    background: #c22228;
+    color: white;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.main:hover .title-pro{
+    display: block;
+}
+.main{
+    height: 280px;
+    padding: 0;
+    overflow: hidden;
+}
+.main:hover .wor {
+    width:100%;
+    height:100%;
+
+}
+.main:hover img{
+    opacity: 0.4;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.projects-position{
+    margin: 0 5%;
+    padding-top: 10%;
+}
+.wrap{
+    height: 100%;
+}
+.p{
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media screen and (max-height: 820px) and (min-height: 605px){
+    /* Изпълнено за ширина под 1200 и височина над 820 */
+   .me{
+       display: block;
+   }
+}
+@media screen and (max-width: 1106px){
+    .description{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 1055px){
+    .description{
+        font-size: 19px;
+    }
+
+}
+@media screen and (min-height: 820px) {
+    .me{
+
+    }
+}
+@media screen and (max-width: 992px){
+    .top .description{
+        font-size: 24px;
+    }
+   .top .name{
+        font-size: 48px;
+    }
 }
 
 @media screen and (max-width: 768px){
-    .main-menu{
+    .top .description{
+        font-size: 21px;
+    }
+    .top .name{
+        font-size: 54px;
+    }
+    .menu{
         line-height: 64px;
         padding: 0 10px;
-        bottom: 0;
     }
-@media screen and (max-width: 1365px) and (min-width: 1359px){
-    .bub{
-        top:285px;
+
+}
+
+@media screen and (max-width: 480px){
+    .top .description{
+        font-size: 16px;
+    }
+    .top .name{
+        font-size: 36px;
     }
 }
+
