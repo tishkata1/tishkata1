@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tihomir Evgeniev</title>
+   <!-- <link rel="stylesheet" href="valio/libs.css"> -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+
 </head>
 <body>
 <div class="top">
@@ -21,10 +29,10 @@
     <div class="center-menu">
         <a class="logo" href=""> TIHOMIR </a>
 
-            <a class="main-menu">HOME</a>
-            <a class="main-menu" href="#section-about">ABOUT</a>
-            <a class="main-menu">PROJECTS</a>
-            <a class="main-menu">CONTACTS</a>
+            <a class="menu">HOME</a>
+            <a class="menu" href="#section-about">ABOUT</a>
+            <a class="menu">PROJECTS</a>
+            <a class="menu">CONTACTS</a>
 
         <a class="contact-icon">
             <img src="images/instagram-32.png">
@@ -63,15 +71,20 @@
 
     </div>
 </div>
+<script src="app.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <script>
    // $('a').tooltip();
 
        $(".title-pro").click(function () {
-           $(".p").show();
+           $(this).siblings(".wor").find(".p").toggle();//Find a sibling .wor of .title-pro and look for child .p in that sibling
+           $('.p').addClass('animated bounceOutLeft');
        });
         $(".main").mouseleave(function(){
             $(".p").hide();
         });
+
 
 </script>
 </body>
