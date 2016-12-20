@@ -24,7 +24,7 @@ var App = function() {
         };
     }
     var c, d = function() {
-        c = $("#main-line"), e(), h(), j();
+        c = $("#main-line"), e(),  j();
     }, e = function() {
         setTimeout(function() {
             a($(".top .name"), "slideInUp", !0);
