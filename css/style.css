@@ -349,5 +349,11 @@ a:hover{
     .top .name{
         font-size: 36px;
     }
+    .title h2{
+        font-size: 30px;
+    }
+    .right-divider, .left-divider{
+        width: 22%;
+    }
 }
 
