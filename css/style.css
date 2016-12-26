@@ -234,7 +234,7 @@ footer {
     text-align: center;
     padding: 10px;
     color: #535353;
-    font-size: 12px
+    font-size: 12px;
 }
 a{
     color: #c22228;
@@ -313,11 +313,6 @@ a:hover{
         font-size: 19px;
     }
 
-}
-@media screen and (min-height: 820px) {
-    .me{
-
-    }
 }
 @media screen and (max-width: 992px){
     .top .description{
