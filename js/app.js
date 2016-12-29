@@ -48,7 +48,6 @@ var App = function() {
     $(window).on("scroll", function() {
         g(), h(), f(), i();
     });
-
     return {
         init: d
     };
