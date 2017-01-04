@@ -45,9 +45,7 @@ var App = function() {
         var a = (b(c), Math.max(document.documentElement.clientHeight, window.innerHeight || 0));
         $(window).scrollTop() > a - c.height() ? c.addClass("fixed") : c.removeClass("fixed");
     };
-    $(window).on("scroll", function() {
-        g(), h(), f(), i();
-    });
+    
     return {
         init: d
     };
