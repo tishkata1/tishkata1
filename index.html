@@ -137,35 +137,13 @@
 
 
     </div>
-</div>
-                <style>
-
-                    #main{
-                        width:100px;
-                        height: 80px;
-                        border: 2px solid black;
-                        background: #c22228;
-                        margin: 200px;
-                    }
-                </style>
-            <div id="main">
-            </div>
+</div>              
     
 <script src="js/app.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script>
    // $('a').tooltip();
-                         var obj = document.getElementById('main');
-                           obj.addEventListener('touchmove', function(event) {
-                               // If there's exactly one finger inside this element
-                               if (event.targetTouches.length == 1) {
-                                   var touch = event.targetTouches[0];
-                                   // Place element where the finger is
-                                   obj.style.left = touch.pageX + 'px';
-                                   obj.style.top = touch.pageY + 'px';
-                               }
-                           }, false);
 
        $(".title-pro").click(function () {
            $(this).siblings(".wor").find(".p").toggle();//Find a sibling .wor of .title-pro and look for child .p in that sibling
