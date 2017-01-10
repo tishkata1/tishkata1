@@ -40,7 +40,7 @@ body{
 .buttons{
     margin: 0 auto;
 }
-.buttons button{
+button{
     width:40%;
     height: 50px;
     background-color: #788196;
@@ -66,7 +66,7 @@ hr{
     width: 95%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     #wrapper{
         width: 95%;
         height: auto;
@@ -82,7 +82,7 @@ hr{
         font-size: 50px;
         font-weight: bold;
     }
-    .buttons button{
+    button{
         width: 80%;
         font-size: 35px;
         height: auto;
