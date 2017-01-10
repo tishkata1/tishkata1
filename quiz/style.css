@@ -10,8 +10,7 @@ body{
 }
 #wrapper{
     width: 60%;
-    height: auto;
-    padding-bottom: 5%;
+    height: 70%;
     border: 2px solid #d5d8da;
     border-radius: 10px;
     margin: 10% auto;
