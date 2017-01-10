@@ -87,4 +87,7 @@ hr{
         height: auto;
         padding: 4% 0;
     }
+    #progress{
+        font-size: 25px;
+    }
 }
