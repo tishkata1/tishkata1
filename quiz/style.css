@@ -40,7 +40,7 @@ body{
 .buttons{
     margin: 0 auto;
 }
-button{
+.buttons button{
     width:40%;
     height: 50px;
     background-color: #788196;
@@ -82,7 +82,7 @@ hr{
         font-size: 50px;
         font-weight: bold;
     }
-    button{
+    .buttons button{
         width: 80%;
         font-size: 35px;
         height: auto;
