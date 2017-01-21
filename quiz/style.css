@@ -10,7 +10,7 @@ body{
 }
 #wrapper{
     width: 60%;
-     height: auto;
+    height: auto;
     padding-bottom: 5%;
     border: 2px solid #d5d8da;
     border-radius: 10px;
@@ -40,7 +40,7 @@ body{
 .buttons{
     margin: 0 auto;
 }
-button{
+.buttons button{
     width:40%;
     height: 50px;
     background-color: #788196;
@@ -66,29 +66,30 @@ hr{
     width: 95%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     #wrapper{
         width: 95%;
         height: auto;
-        padding-bottom: 5%;
+        padding-bottom: 7%;
+        margin: 5% auto;
     }
     #wrapper h1{
-        font-size: 80px;
+        font-size: 50px;
         padding: 3% 0;
         height: auto;
         border-radius: 70px;
     }
     #question{
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
     }
-    button{
+    .buttons button{
         width: 80%;
-        font-size: 35px;
+        font-size: 25px;
         height: auto;
         padding: 4% 0;
     }
     #progress{
-        font-size: 25px;
+        font-size: 15px;
     }
 }
