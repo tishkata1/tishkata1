@@ -88,10 +88,10 @@ function showScores(){
 }
 
 var questions=[
-    new Question("What is my name bro?", ["Tishkata", "Lebron", "maaf", "ivan"], "Tishkata"),
+    new Question("What is my name bro?", ["Tishkata", "Lebron", "Izdislav", "ivan"], "Tishkata"),
     new Question("What is my height?", ["1.90", "1.72", "1.80", "1.50"], "1.72"),
-    new Question("My favourite team?", ["CSKA", "Litex", "leWCki", "nsdnos"], "CSKA"),
-    new Question("My hometown?", ["Mezdra", "Sofia", "massf", "Vratsa"], "Vratsa")
+    new Question("Who is the best club in the world?", ["CSKA", "Litex", "leWCki", "Barcelona"], "CSKA"),
+    new Question("My hometown?", ["Mezdra", "Sofia", "New York", "Vratsa"], "Vratsa")
 ];
 
 var quiz = new Quiz(questions);
