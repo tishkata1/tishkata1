@@ -81,7 +81,8 @@ function showProgress(){
 
 function showScores(){
     var gameOver = "<h1>Result</h1>";
-        gameOver += "<h2 id='score'> Your score: " + quiz.score + "</h2>";
+        gameOver += "<h2 id='score'> Your score: " + quiz.score + "</h2>" +
+            "<br>" + "<button id='playAgain' onclick='location.href=\"index.html\"'>Play Again</button>" ;
         var element = document.getElementById("wrapper");
         element.innerHTML = gameOver;
 }
