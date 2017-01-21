@@ -40,7 +40,7 @@ body{
 .buttons{
     margin: 0 auto;
 }
-.buttons button{
+.buttons button, #playAgain{
     width:40%;
     height: 50px;
     background-color: #788196;
@@ -51,7 +51,7 @@ body{
     color: #fff;
     font-size: 20px;
 }
-button:hover{
+button:hover, #playAgain:hover{
     background-color: #3f495f;
     cursor: pointer;
 }
@@ -65,6 +65,7 @@ hr{
     margin-top: 15px;
     width: 95%;
 }
+
 
 @media screen and (max-width: 768px){
     #wrapper{
